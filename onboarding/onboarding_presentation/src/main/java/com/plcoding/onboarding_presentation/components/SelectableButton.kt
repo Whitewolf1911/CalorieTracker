@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.plcoding.core_ui.LocalSpacing
 
@@ -51,4 +52,16 @@ fun SelectableButton(
             color = if(isSelected) selectedTextColor else color,
         )
     }
+}
+
+@Preview
+@Composable
+fun SelectableButtonPreview() {
+    SelectableButton(
+        text = "hello",
+        isSelected = true,
+        color = Color.Green,
+        selectedTextColor = Color.White,
+        onClick = { /*TODO*/ })
+
 }

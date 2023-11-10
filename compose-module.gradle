@@ -49,6 +49,8 @@ dependencies {
     implementation Compose.viewModelCompose
     implementation Compose.activityCompose
 
+    debugImplementation("androidx.compose.ui:ui-tooling:${Compose.composeVersion}")
+
     kapt DaggerHilt.hiltCompiler
     implementation DaggerHilt.hiltAndroid
 
