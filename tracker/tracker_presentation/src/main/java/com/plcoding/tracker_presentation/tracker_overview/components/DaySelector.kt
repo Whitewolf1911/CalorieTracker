@@ -1,4 +1,4 @@
-package com.plcoding.tracker_presentation.components
+package com.plcoding.tracker_presentation.tracker_overview.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -14,7 +14,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import com.plcoding.core.R
-import com.plcoding.tracker_presentation.tracker_overview.components.parseDateText
 import java.time.LocalDate
 
 
